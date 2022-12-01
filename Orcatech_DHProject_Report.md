@@ -40,12 +40,13 @@ This project was started in AY2021/2022 Sem 2 when the Dinning Hall capacity was
 
 <img src="src/3Dprints.jpg" width="400"/>
 
-For the casing, PLA filament with a 3D printer was used to prototype various methods of encasing the PCB. We initially tried using friction fitting but it was hard to get an accurate fit, and we realised it might encourage tampering as any resident coule remove a friction fit. Hence, our final iteration used screws to secure the cover.
+For the casing, PLA filament with a 3D printer was used to prototype various methods of encasing the PCB. We initially tried using friction fitting but it was hard to get an accurate fit and we realised it might encourage tampering as any resident could remove a friction fit. Hence, our final iteration used screws to secure the cover.
 
 <img src="src/Mounted.jpg" width="400"/>
 
-The casing was mounted on to the pillars of the Dinning Hall using mounting tape. From some initial testing, we made some observations, which can be improved upon during the next iteration
-- Mounting Tape is quite permanant and when taken out, pain is removed as well.
-- The cover had cut as it seemed to block the VLX sensor's line of vision.
+The casing was mounted on to the pillars of the Dinning Hall using mounting tape. Transparent tape was used to tape down the wires to the walls. From some initial testing, we made some observations, which can be improved upon during the next iteration
+- Mounting Tape is quite permanant and when taken out, paint is removed as well.
+- The cover was cut as it seemed to block the VLX sensor's line of vision.
 - One of the ESP32s were damanaged when the USB port broke off. We believe someone accidentally presed against it leading to the USB port being removed from the ESP32 board. Hence, that board needed to be swapped out. As such, future iterations need to consider such a scenario.
+- After a month of installation, the wires and tape accumulated dust. A more permanant installation should be considered
 
