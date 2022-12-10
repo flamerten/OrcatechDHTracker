@@ -2,7 +2,7 @@
 
 This is the GitHub repository for the Dining Hall Capacity Tracking project.
 
-The process has been documented this report: [Orcatech DH Project Report](./Orcatech_DHProject_Report.md)
+The process has been documented in this report: [Orcatech DH Project Report](./Orcatech_DHProject_Report.md)
 
 The remaining contents of the repository are arranged as follows:
 
