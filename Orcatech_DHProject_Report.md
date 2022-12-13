@@ -50,3 +50,14 @@ The casing was mounted on to the pillars of the Dinning Hall using mounting tape
 - One of the ESP32s were damanaged when the USB port broke off. We believe someone accidentally presed against it leading to the USB port being removed from the ESP32 board. Hence, that board needed to be swapped out. As such, future iterations need to consider such a scenario.
 - After a month of installation, the wires and tape accumulated dust. A more permanant installation should be considered
 
+## Data
+
+Data was collected for around 2 months, and plotted using the `graph_plotter.py` file. The raw data is also attached in the src folder [here](src/DHCapacityRecords.csv).
+
+<img src="src/ExamplePlot.png"/>
+
+From testing at night, we had a success rate of around 70% with very few false triggers. This was done by shifting the sensors away from the door. Its shiny handle was suspected to cause the false triggering. From the data collected over a few days, the two sensors at the main doors were found to be quite inaccurate. From the data, the number of people going in appeared to peak at around 12pm. The sensor at the side door seemed to be working fine. We suspected that the anamolies were due to UV rays from the sun which peaked that that timing. As the side door seemed to work fine, the inaccuracies of the sensor could also be due to the wide width of the main doors. 
+
+We purchased the VLX53L1X to test this due to its higher range of 30mm to 4000mm. However, we found the sensor to be unreliable, with 3 out of 4 sensors being extremely noisy. The blue line in the graph below represents the good esnsor while the red line is the noisy sensor.
+
+<img src="src/VL53L1XsensorData.jpg"/>
